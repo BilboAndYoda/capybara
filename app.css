@@ -1,9 +1,17 @@
 li {
-	color: pink;
+	color: #E100AA;
 }
 h1 {
-	color: blue;
+	color: rgb(200, 100, 100);
+	border: 5px solid #12345F;
 }
 h4 {
-	color: purple;
+	color: rgba(200, 100, 100, .3);
+	background: #FF11EE;
+}
+
+body {
+	background: url(https://nerdist.com/wp-content/uploads/2016/03/Rick-And-Morty-Eyes.jpg);
+	background-repeat: no-repeat;;
+	background-size: cover;
 }
