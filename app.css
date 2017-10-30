@@ -11,7 +11,15 @@ h4 {
 }
 
 body {
-	background: url(https://nerdist.com/wp-content/uploads/2016/03/Rick-And-Morty-Eyes.jpg);
+/*	background: url(https://nerdist.com/wp-content/uploads/2016/03/Rick-And-Morty-Eyes.jpg);
 	background-repeat: no-repeat;;
-	background-size: cover;
+	background-size: cover;*/
+}
+
+#super {
+	color: pink;
+}
+
+.super {
+	color: red;
 }
