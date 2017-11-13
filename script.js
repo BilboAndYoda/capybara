@@ -1,4 +1,36 @@
-var age = prompt("What is your age?");
+var movies = [
+		{
+			name:"Dark Knight", 
+			rating: 4.5, 
+			hasWatched: true
+		},	
+		{
+			name:"Fantastic Mr. Fox", 
+			rating: 5, 
+			hasWatched: true
+		},	
+		{
+			name:"Matrix 2", 
+			rating: 3, 
+			hasWatched: false
+		},	
+		{
+			name:"Dark Knight", 
+			rating: 4.5, 
+			hasWatched: true
+		},
+];
 
-age = 365.25*age;
-console.log("You are " + age + " days old");
+movies.forEach(function(movie) {
+	var result = "You have ";
+	if(movie.hasWatched === true){
+		result += "watched ";
+	}
+	else if(movie.hasWatched === false){
+		result += "not seen ";
+	}
+
+	result+= movie.name + " - " + movie.rating + " stars";
+
+	console.log(result);
+});
