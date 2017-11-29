@@ -35,10 +35,23 @@
 // 	console.log(result);
 // });
 
-var hOne = document.querySelector("h1");
-var paragraph = document.querySelector("p");
+// var hOne = document.querySelector("h1");
+// var paragraph = document.querySelector("p");
 
-paragraph.addEventListener("click", function() {
-	hOne.textContent = "booger";
+// paragraph.addEventListener("click", function() {
+// 	hOne.textContent = "booger";
+// });
+
+var button = document.querySelector("button");
+
+button.addEventListener("click", function(){
+	document.body.classList.toggle("mystyle");
 });
+
+
+
+
+
+
+
 
