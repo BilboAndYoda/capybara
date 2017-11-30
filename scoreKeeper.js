@@ -35,6 +35,7 @@ playingToInput.addEventListener("change", function(){
 	winningScore = this.value;
 	winningScoreDisplay.textContent = winningScore;
 	resetScore();
+	updateScore();
 });
 
 function updateScore(){
@@ -54,10 +55,8 @@ function isWinner(){
 	if(p1score == winningScore){
 		scoreDisplay1.classList.add("winner");
 		gameOver = true;
-		alert("p1 is the winner");
 	}else if(p2score == winningScore){
 		scoreDisplay2.classList.add("winner");
-		alert("p2 is the winner");
 		gameOver = true;
 	}
 }
