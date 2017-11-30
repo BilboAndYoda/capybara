@@ -1,0 +1,12 @@
+body {
+
+}
+
+.green {
+	color: green;
+}
+
+.done {
+	color: grey;
+	text-decoration: line-through;
+}
